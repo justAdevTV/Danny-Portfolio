@@ -147,54 +147,11 @@ header {
     max-height: 100vh;
 }
 
-.hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.logo {
-    height: 100px;
-    width: auto;
-    float: left;
-    z-index: 1;
-    margin-top: 20px;
-}
-
-.main-nav {
-    float: right;
-    list-style: none;
-    margin-top: 55px;
-}
-
-.main-nav li {
-    display: inline-block;
-    margin-left: 40px;
-}
-
-.main-nav li a:link,
-.main-nav li a:visited {
-    padding: 8px 0;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 90%;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s;
-}
-
-.main-nav li a:hover,
-.main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
-}
-
 .portfolio-holder {
     width: 100%;
 }
 
-.porfolio-content-holder span {
+.portfolio-content-holder span {
     position: absolute;
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
@@ -207,17 +164,43 @@ header {
     font-weight: 200;
 }
 
-.porfolio-content-holder {
+.portfolio-content-holder {
     padding-top: 20%;
     padding-bottom: 10%;
     height: 695px;
 }
 
-.porfolio-content-holder a {
+.portfolio-slider-holder {
+    height: 100%;
+}
+
+.portfolio-slider-holder a {
+    display: block;
+    height: 25%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-content-holder a {
     display: block;
     height: 40%;
     background-size: cover;
     background-position: center;
+}
+
+.portfolio-slider-holder span {
+    position: absolute;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 200%;
+    font-weight: 200;
 }
 
 .portfolio-img-1 {
@@ -226,4 +209,34 @@ header {
 
 .portfolio-img-2 {
     background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0,0,0, 0.2)), url('http://lorempixel.com/720/720/city/');
+}
+
+.internship-info-holder {
+    height: 695px;
+}
+
+.internship-info-header {
+    height: 25%;
+    display: inline-block;
+}
+
+.internship-list {
+    height: 75%;
+    width: 100%;
+}
+
+.internship-info-pic {
+    height: 100%;
+}
+
+.internship-info-pic img {
+    max-width: 100%;
+    height: 90%;
+    display: block;
+    margin: auto;
+}
+
+.internship-info-text p {
+    text-align: justify;
+    line-height: 140%;
 }
