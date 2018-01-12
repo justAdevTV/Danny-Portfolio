@@ -56,8 +56,9 @@ html {
     color: #f7be24;
 }
 
-.link-holder a .active {
-    color: #f7be24;
+.active {
+    color: #f7be24 !important;
+    pointer-events: none;
 }
 
 .right-link {
