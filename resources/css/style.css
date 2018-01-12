@@ -26,8 +26,10 @@ html {
     margin: 0 auto;
 }
 
+/* TODO: Change  */
 .logo-holder {
-    width: 100%; 
+    width: 100%;
+    margin-top: -4%;
 }
 
 .content-holder {
