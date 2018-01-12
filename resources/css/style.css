@@ -189,3 +189,41 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
+
+.portfolio-holder {
+    width: 100%;
+}
+
+.porfolio-content-holder span {
+    position: absolute;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 200%;
+    font-weight: 200;
+}
+
+.porfolio-content-holder {
+    padding-top: 20%;
+    padding-bottom: 10%;
+    height: 695px;
+}
+
+.porfolio-content-holder a {
+    display: block;
+    height: 40%;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-img-1 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0,0,0, 0.2)), url('http://lorempixel.com/720/720/city/');
+}
+
+.portfolio-img-2 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0,0,0, 0.2)), url('http://lorempixel.com/720/720/city/');
+}
