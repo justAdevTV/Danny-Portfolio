@@ -73,6 +73,10 @@ html {
     margin-left: 0;
 }
 
+.center-link {
+    text-align: center;
+}
+
 /* Text */
 
 h1 {
@@ -90,6 +94,8 @@ h1 {
     margin-left: 20px;
     margin-top: 13px;
     color: black;
+    display: inline-block;
+    text-decoration: none;
 }
 
 /* 
