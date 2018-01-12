@@ -38,6 +38,30 @@ html {
     margin-left: auto;
 }
 
+.link-holder {
+    z-index: 9999;
+    position: relative;
+    margin-top: -13%;
+}
+
+.link-holder a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.link-holder a:hover {
+    color: #f7be24;
+}
+
+.right-link {
+    text-align: right;
+}
+
+.left-link {
+    margin-left: 28px;
+}
+
 /* Text */
 
 h1 {
@@ -103,8 +127,7 @@ h1 {
 
 /* TODO: Change hack */
 header {
-    height: 100vh;
-    overflow: hidden; 
+    max-height: 100vh;
 }
 
 .hero-text-box {
@@ -119,6 +142,7 @@ header {
     height: 100px;
     width: auto;
     float: left;
+    z-index: 1;
     margin-top: 20px;
 }
 
