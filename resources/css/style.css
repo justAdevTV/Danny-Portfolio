@@ -12,8 +12,68 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/* formatting */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 /* Holders */
 
-.header-content-holder {
+.header-holder {
     height: 100vh;
+    width: 100%;
+}
+
+.header-content-holder {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-links {
+    position: absolute;
+    width: 80%;
+    bottom: 10vh;
+}
+
+/* images */
+
+.logo-image {
+    position: absolute;
+    margin: -20px auto 0 auto;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: block;
+}
+
+/* text-style */
+
+.title-text {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    margin: 11px 0 0 13px;
+}
+
+.header-links a {
+    display: block;
+    width: 33%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.header-links .active {
+    color: #f7be24 !important;
+    pointer-events: none;
+}
+
+.header-links a:hover {
+    color: #f7be24 !important;
 }
