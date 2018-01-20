@@ -68,6 +68,7 @@ html {
     text-align: center;
     color: white;
     background-color: black;
+    display: block;
 }
 
 .img-card img {
@@ -134,3 +135,5 @@ html {
 .card-container {
     padding: 2px 16px;
 }
+
+/* Modal */
