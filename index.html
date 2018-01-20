@@ -13,9 +13,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet"> 
     <link href="vendors/fonts/Futura Bold font.ttf" rel="stylesheet"> 
     <link href="vendors/fonts/Futura Light font.ttf" rel="stylesheet"> 
-    <link href="vendors/fonts/futura medium bt.ttf" rel="stylesheet"> 
+    <link href="vendors/fonts/futura medium bt.ttf" rel="stylesheet">
 </head>
 <body>
+    <script src="vendors/js/jquery-3.2.1.min.js"></script>
+
     <!-- Header -->
     <header class="header-holder">
         <a href="index.html" class="title-text">danielcovelli.com</a>
@@ -29,32 +31,37 @@
         </div>
     </header>
     
-    <!-- Portfolio -->
+    <!-- Internship -->
     <section class="portfolio-section-holder" id="portfolio-section-holder">
         <div class="portfolio-content-holder">
-            <a href="" class="img-card modal__trigger" id="intern-modal-button" data-modal="#intern-modal">
+            <div class="img-card" id="intern-button">
                 <img src="http://lorempixel.com/output/transport-q-c-640-640-6.jpg" alt="Portfolio">
                 <div class="img-text">Internship Experience</div>
-            </a> 
+            </div>
+
+            <div id="internship-content" style="display:none;">
+                Hello
+            </div>
         </div>
     </section>
 
+    <!-- Personal Projects -->
     <section class="portfolio-section-holder">
         <div class="portfolio-content-holder">
-            <a href="" class="img-card modal__trigger" id="portfolio-modal-button" data-modal="#portfolio-modal">
+            <divclass="img-card modal__trigger" id="portfolio-modal-button" data-modal="#portfolio-modal">
                 <img src="http://lorempixel.com/output/city-q-c-640-640-4.jpg" alt="Portfolio">
                 <div class="img-text">Personal Projects</div>
-            </a> 
+            </div> 
         </div>
     </section>
 
     <!-- TODO: Change modal link -->
     <section class="portfolio-section-holder white-background">
         <div class="portfolio-content-holder">
-            <a href="" class="img-card modal__trigger" id="portfolio-modal-button" data-modal="#contact-modal">
+            <div class="img-card modal__trigger" id="portfolio-modal-button" data-modal="#contact-modal">
                 <img src="http://lorempixel.com/output/city-q-c-640-640-4.jpg" alt="Portfolio">
                 <div class="img-text">Contact</div>
-            </a> 
+            </div> 
         </div>
     </section>
 

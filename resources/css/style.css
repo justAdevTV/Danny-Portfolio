@@ -78,6 +78,7 @@ html {
     background-color: black;
     display: block;
     max-height: 52vh;
+    cursor: pointer;
 }
 
 .img-card img {

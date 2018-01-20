@@ -4,3 +4,8 @@ function scrollToPortfolio() {
         behavior: 'smooth' 
     });
 }
+
+$("#intern-button").click(function(){
+    $("#intern-button").hide();
+    $("#internship-content").show();
+});
