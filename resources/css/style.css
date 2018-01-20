@@ -120,6 +120,10 @@ html {
     background-color: black;
 }
 
+.contact-content {
+    cursor: pointer;
+}
+
 /* images */
 
 .logo-image {

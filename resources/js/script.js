@@ -20,10 +20,19 @@ $("#contact-button").click(function(){
     $("#contact-content").show();
 });
 
+$("#contact-content").click(function(){
+    $("#contact-content").hide();
+    $("#contact-button").show();
+});
+
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     var portfolio = $('#portfolio-section-holder').offset().top;
     var contact = $('#contact-section-holder').offset().top;
+
+    var internship = $('#internship-content');
+    var independant = $('#independant-content');
+
     if (scroll >= contact){
         $('#title-text').text("danielcovelli.com/contact");
     } else if (scroll >= portfolio) {
@@ -31,4 +40,14 @@ $(window).scroll(function() {
     } else {
         $('#title-text').text("danielcovelli.com");
     }
+
+    // console.log("scroll",scroll);
+    // console.log("top",Math.round(internship.top));
+
+    // if (scroll > internship.offset().top + internship.height() || scroll < internship.offset().top + internship.height() + internship.height()) {
+    //     console.log('I ran');
+    //     $("#internship-content").hide();
+    //     $("#intern-button").show();
+    // }
+
 });
