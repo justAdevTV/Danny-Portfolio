@@ -50,7 +50,12 @@ html {
 .portfolio-content-holder {
     margin: 0 auto 0 auto;
     width: 52vw;
-    height: 100%;
+}
+
+/* Color */
+
+.white-background {
+    background-color: white; 
 }
 
 /* images */
