@@ -41,13 +41,4 @@ $(window).scroll(function() {
         $('#title-text').text("danielcovelli.com");
     }
 
-    // console.log("scroll",scroll);
-    // console.log("top",Math.round(internship.top));
-
-    // if (scroll > internship.offset().top + internship.height() || scroll < internship.offset().top + internship.height() + internship.height()) {
-    //     console.log('I ran');
-    //     $("#internship-content").hide();
-    //     $("#intern-button").show();
-    // }
-
 });
