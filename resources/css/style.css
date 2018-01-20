@@ -52,6 +52,13 @@ html {
     width: 52vw;
 }
 
+.more-content {
+    position: absolute;
+    height: 52vh;
+    width: 100%;
+    background-color: white;
+    overflow: scroll;
+}
 
 /* Color */
 
@@ -73,12 +80,6 @@ html {
 .img-card {
     margin-top: 20vh;
     position: relative;
-    text-align: center;
-    color: white;
-    background-color: black;
-    display: block;
-    height: 52vh;
-    cursor: pointer;
 }
 
 .img-card img {
@@ -86,10 +87,6 @@ html {
     object-fit: cover;
     height: 52vh;
     opacity: 0.7;
-}
-
-.img-card:hover {
-    color: #f7be24;
 }
 
 .img-card img:hover {
@@ -106,6 +103,19 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.img-card-initial {
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: block;
+    height: 52vh;
+    cursor: pointer;
+}
+
+.img-card-initial:hover {
+    color: #f7be24;
 }
 
 /* text-style */
