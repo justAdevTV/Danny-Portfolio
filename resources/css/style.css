@@ -52,6 +52,7 @@ html {
     width: 52vw;
 }
 
+
 /* Color */
 
 .white-background {
@@ -84,6 +85,15 @@ html {
     object-fit: cover;
     max-height: 52vh;
     opacity: 0.7;
+}
+
+.img-card:hover {
+    color: #f7be24;
+}
+
+.img-card img:hover {
+    filter: grayscale(100%);
+    opacity: 0.5;
 }
 
 .img-text {
