@@ -103,6 +103,8 @@ html {
     width: 33%;
     text-align: center;
     text-decoration: none;
+    user-select: none;
+    -moz-user-select: none;
     color: black;
     font-size: 25px;
     font-weight: 400;
