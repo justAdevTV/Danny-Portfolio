@@ -14,6 +14,14 @@ html {
 
 /* Text */
 
+.scroll-to-top {
+    position: absolute;
+    bottom: 4vh;
+    left: 50%;
+    transform: translate(-50%,0);
+    cursor: pointer;
+}
+
 .content-header-title {
     font-weight: bold;
 }
@@ -70,6 +78,7 @@ html {
 }
 
 .portfolio-section-holder {
+    position: relative;
     background: #eeeeee;
     padding-top: .25vh;
     width: 100%;
@@ -137,6 +146,7 @@ html {
 .img-text {
     position: absolute;
     user-select: none;
+    text-transform: uppercase;
     -moz-user-select: none;
     font-weight: 300;
     font-size: 350%;
