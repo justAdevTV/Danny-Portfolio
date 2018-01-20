@@ -12,6 +12,21 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/* Text */
+
+.content-header-title {
+    font-weight: bold;
+}
+
+.content-header-text {
+    font-weight: 300;
+    font-size: 50%;
+    line-height: 1.5;
+    display: block;
+    text-align: justify;
+    padding: 2% 0;
+}
+
 /* formatting */
 
 .container {
@@ -58,6 +73,7 @@ html {
     width: 100%;
     background-color: white;
     overflow: scroll;
+    padding: 38px 38px 0 38px;
 }
 
 /* Color */
@@ -82,14 +98,14 @@ html {
     position: relative;
 }
 
-.img-card img {
+.img-card-initial img {
     width: 100%;
     object-fit: cover;
     height: 52vh;
     opacity: 0.7;
 }
 
-.img-card img:hover {
+.img-card-initial img:hover {
     filter: grayscale(100%);
     opacity: 0.5;
 }
@@ -116,6 +132,11 @@ html {
 
 .img-card-initial:hover {
     color: #f7be24;
+}
+
+.company-logo {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* text-style */
@@ -167,4 +188,41 @@ html {
     padding: 2px 16px;
 }
 
-/* Modal */
+/* BOX STUFF */
+.box-sidebar {
+    grid-area: sidebar;
+}
+
+.box-content {
+    grid-area: content;
+}
+
+.box-wrapper {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+    "sidebar"
+    "content"
+}
+
+@media only screen and (min-width: 500px)  {
+.box-wrapper {
+
+    grid-template-columns: 20% auto;
+    grid-template-areas:
+    "sidebar  content"
+}
+}
+
+@media only screen and (min-width: 600px)   {
+    .box-wrapper {
+  grid-gap: 20px;
+        grid-template-areas:
+        "sidebar content";
+        max-width: 100%;
+    }
+}
+
+.box {
+    font-size: 150%; 
+}
