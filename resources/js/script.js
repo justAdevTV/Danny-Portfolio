@@ -19,3 +19,16 @@ $("#contact-button").click(function(){
     $("#contact-button").hide();
     $("#contact-content").show();
 });
+
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    var portfolio = $('#portfolio-section-holder').offset().top;
+    var contact = $('#contact-section-holder').offset().top;
+    if (scroll >= contact){
+        $('#title-text').text("danielcovelli.com/contact");
+    } else if (scroll >= portfolio) {
+        $('#title-text').text("danielcovelli.com/portfolio");
+    } else {
+        $('#title-text').text("danielcovelli.com");
+    }
+});

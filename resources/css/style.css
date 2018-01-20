@@ -193,7 +193,10 @@ html {
 /* text-style */
 
 .title-text {
-    position: absolute;
+    z-index: 1000;
+    top: 11px;
+    letter-spacing: .5px;
+    position: sticky;
     user-select: none;
     -moz-user-select: none; 
     text-decoration: none;
