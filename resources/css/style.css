@@ -76,6 +76,12 @@ html {
     padding: 38px 38px 0 38px;
 }
 
+.content-list-box {
+    height: 121px;
+    background-color: black;
+    margin: 20px 0 20px 0 !important;
+}
+
 /* Color */
 
 .white-background {
@@ -132,6 +138,18 @@ html {
 
 .img-card-initial:hover {
     color: #f7be24;
+}
+
+.content-img-card {
+    height: 100%;
+}
+
+.content-img-card img {
+    height: 100%;
+}
+
+.content-img-text {
+    font-size: 150%;
 }
 
 .company-logo {
