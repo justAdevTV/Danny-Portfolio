@@ -9,3 +9,8 @@ $("#intern-button").click(function(){
     $("#intern-button").hide();
     $("#internship-content").show();
 });
+
+$("#personal-button").click(function(){
+    $("#personal-button").hide();
+    $("#independant-content").show();
+});
