@@ -44,9 +44,14 @@ html {
     transform: translate(-50%, -50%);
 }
 
-.contact-text a, span {
+.contact-text a {
     color: white;
     text-decoration: none;
+}
+
+.contact-text span {
+    color: white;
+    text-decoration: none; 
 }
 
 /* formatting */
