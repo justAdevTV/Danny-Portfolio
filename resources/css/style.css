@@ -194,6 +194,8 @@ html {
 
 .title-text {
     position: absolute;
+    user-select: none;
+    -moz-user-select: none; 
     text-decoration: none;
     color: black;
     margin: 11px 0 0 13px;
@@ -206,6 +208,7 @@ html {
     text-decoration: none;
     user-select: none;
     -moz-user-select: none;
+    cursor: pointer;
     color: black;
     font-size: 25px;
     font-weight: 400;
