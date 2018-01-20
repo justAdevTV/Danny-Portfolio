@@ -27,6 +27,20 @@ html {
     padding: 2% 0;
 }
 
+.contact-text {
+    position: absolute;
+    text-align: center;
+    line-height: 1.2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-text a, span {
+    color: white;
+    text-decoration: none;
+}
+
 /* formatting */
 
 .container {
@@ -86,6 +100,10 @@ html {
 
 .white-background {
     background-color: white; 
+}
+
+.black-background {
+    background-color: black;
 }
 
 /* images */

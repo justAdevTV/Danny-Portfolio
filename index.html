@@ -24,9 +24,9 @@
         <div class="header-content-holder">
             <img class="logo-image" src="resources/img/logo.png" alt="Logo Image">
             <div class="container header-links">
-                <a onclick="scrollToPortfolio()">Portfolio</a>
+                <a onclick="scrollToSection('portfolio-section-holder')">Portfolio</a>
                 <a href="#">Resume</a>
-                <a href="#">Contact</a>
+                <a onclick="scrollToSection('contact-section-holder')">Contact</a>
             </div>
         </div>
     </header>
@@ -79,38 +79,49 @@
     <!-- Personal Projects -->
     <section class="portfolio-section-holder">
         <div class="portfolio-content-holder">
-                <div class="img-card">
-                    <div id="personal-button" class="img-card-initial">
-                        <img src="resources/img/PORTFOLIO/INDEPENDENT PROJECTS/(0) INDEPENDENT PROJECTS.JPG" alt="Independant Projects">
-                        <div class="img-text">Independant Projects</div>
-                    </div>
-    
-                    <div class="more-content" id="independant-content" style="display:none;">
-                        <div class="content-list-box img-card">
-                            <div class="content-img-card img-card-initial">
-                                <img src="http://lorempixel.com/output/transport-q-c-640-640-6.jpg" alt="Creative Design">
-                                <div class="img-text content-img-text">Creative Design</div>
-                            </div>
+            <div class="img-card">
+                <div id="personal-button" class="img-card-initial">
+                    <img src="resources/img/PORTFOLIO/INDEPENDENT PROJECTS/(0) INDEPENDENT PROJECTS.JPG" alt="Independant Projects">
+                    <div class="img-text">Independant Projects</div>
+                </div>
+
+                <div class="more-content" id="independant-content" style="display:none;">
+                    <div class="content-list-box img-card">
+                        <div class="content-img-card img-card-initial">
+                            <img src="http://lorempixel.com/output/transport-q-c-640-640-6.jpg" alt="Creative Design">
+                            <div class="img-text content-img-text">Creative Design</div>
                         </div>
-    
-                        <div class="content-list-box img-card">
-                            <div class="content-img-card img-card-initial">
-                                <img src="http://lorempixel.com/output/transport-q-c-640-640-6.jpg" alt="Speech And Debate">
-                                <div class="img-text content-img-text">Speech And Debate</div>
-                            </div>
+                    </div>
+
+                    <div class="content-list-box img-card">
+                        <div class="content-img-card img-card-initial">
+                            <img src="http://lorempixel.com/output/transport-q-c-640-640-6.jpg" alt="Speech And Debate">
+                            <div class="img-text content-img-text">Speech And Debate</div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
-    <!-- TODO: Change modal link -->
-    <section class="portfolio-section-holder white-background">
+    <section class="portfolio-section-holder white-background" id="contact-section-holder">
         <div class="portfolio-content-holder">
-            <div class="img-card" id="portfolio-modal-button">
-                <img src="http://lorempixel.com/output/city-q-c-640-640-4.jpg" alt="Portfolio">
-                <div class="img-text">Contact</div>
-            </div> 
+            <div class="img-card">
+                <div id="contact-button" class="img-card-initial">
+                    <img src="resources/img/portrait.jpg" alt="Contact Me">
+                    <div class="img-text">Contact Me</div>
+                </div>
+
+                <div class="more-content black-background" id="contact-content" style="display:none;">
+                    <div class="contact-text">
+                        <span>Daniel Covelli</span>
+                        <br>
+                        <a href="tel:+1-818-231-5126">(818) 231-5126</a>
+                        <br>
+                        <a href="mailto:daniel@danielcovelli.com" target="_top">daniel@danielcovelli.com</a>
+                    </div> 
+                </div>
+            </div>
         </div>
     </section>
 

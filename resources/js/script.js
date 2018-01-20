@@ -1,6 +1,6 @@
-function scrollToPortfolio() {
+function scrollToSection(name) {
     // Scroll to a certain element
-    document.getElementById('portfolio-section-holder').scrollIntoView({ 
+    document.getElementById(name).scrollIntoView({ 
         behavior: 'smooth' 
     });
 }
@@ -13,4 +13,9 @@ $("#intern-button").click(function(){
 $("#personal-button").click(function(){
     $("#personal-button").hide();
     $("#independant-content").show();
+});
+
+$("#contact-button").click(function(){
+    $("#contact-button").hide();
+    $("#contact-content").show();
 });
