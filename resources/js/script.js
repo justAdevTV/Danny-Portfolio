@@ -15,7 +15,7 @@ function scrollToSection(name) {
     });
 }
 
-$("#toggle-content").click(function(){
+$(".toggle-content").click(function(){
     var carousel = $('.carousel-text'); 
     if (carousel.is(':visible')) {
         carousel.hide();
