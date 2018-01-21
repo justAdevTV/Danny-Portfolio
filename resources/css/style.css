@@ -216,6 +216,7 @@ img {
 
 .content-img-card img {
     object-fit: cover;
+    opacity: 1;
     height: 100%;
 }
 
