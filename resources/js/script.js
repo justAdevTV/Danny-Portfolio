@@ -4,12 +4,25 @@ $(document).ready(function(){
     });
 });
 
+$(".slide-show").on("beforeChange", function (){
+    $('.carousel-text').hide();
+})
+
 function scrollToSection(name) {
     // Scroll to a certain element
     document.getElementById(name).scrollIntoView({ 
         behavior: 'smooth' 
     });
 }
+
+$("#toggle-content").click(function(){
+    var carousel = $('.carousel-text'); 
+    if (carousel.is(':visible')) {
+        carousel.hide();
+    } else {
+        carousel.show();   
+    }
+});
 
 $("#intern-button").click(function(){
     $("#intern-button").hide();

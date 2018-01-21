@@ -185,6 +185,7 @@ html {
 }
 
 .content-img-card img {
+    object-fit: cover;
     height: 100%;
 }
 
@@ -194,6 +195,12 @@ html {
 
 .carousel-text {
     font-size: 100%;
+    top: 0;
+    left: 20px;
+    margin: 30px 50% 20px 10px;
+    text-align: justify;
+    text-transform: none;
+    transform: none;
 }
 
 .company-logo {
@@ -293,4 +300,28 @@ html {
 
 .box {
     font-size: 150%; 
+}
+
+.btn, .btn-two {
+	margin-left: 9px;
+}
+
+.btn-two {
+    background-color: #ffffff00;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    padding: 0px 10px;
+    user-select: none;
+    -moz-user-select: none;
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.21);
+    border-bottom-color: rgba(0, 0, 0, 0.21);
+    border-bottom-color: rgba(0,0,0,0.34);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.34) inset, 0 2px 0 -1px rgba(0,0,0,0.13), 0 3px 0 -1px rgba(0,0,0,0.08), 0 3px 13px -1px rgba(0,0,0,0.21);
+}
+
+.rounded {
+    border-radius: 10px;
 }
