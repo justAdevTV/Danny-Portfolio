@@ -227,10 +227,12 @@ img {
     font-size: 100%;
     top: 0;
     left: 20px;
-    margin: 30px 50% 20px 10px;
+    margin: 30px 50% 20px 30px;
     text-align: justify;
     text-transform: none;
     transform: none;
+    padding: 10px;
+    background-color: black;
 }
 
 .company-logo {
