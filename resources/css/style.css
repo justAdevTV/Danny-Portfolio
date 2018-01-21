@@ -12,6 +12,10 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+img {
+    image-orientation: from-image;
+}
+
 /* Text */
 
 .toggle-content {
@@ -151,6 +155,14 @@ html {
 .slide-show-content {
     height: 70vh;
     pointer-events: none;
+}
+
+.rotate-image {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .img-card {
@@ -332,10 +344,6 @@ html {
     border: 3px solid black;
     font-size: 200%;
     text-align: center;
-}
-
-.btn-two span {
-     
 }
 
 .rounded {
