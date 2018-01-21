@@ -14,6 +14,13 @@ html {
 
 /* Text */
 
+.toggle-content {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+}
+
 .scroll-to-top {
     position: absolute;
     bottom: 4vh;
@@ -142,7 +149,7 @@ html {
 }
 
 .slide-show-content {
-    height: 60vh;
+    height: 70vh;
     pointer-events: none;
 }
 
@@ -310,10 +317,11 @@ html {
 }
 
 .btn, .btn-two {
-	margin-left: 9px;
+    margin-left: 9px;
 }
 
 .btn-two {
+    display: inline-block; 
     background-color: #ffffff00;
     cursor: pointer;
     color: black;
@@ -321,14 +329,15 @@ html {
     padding: 0px 10px;
     user-select: none;
     -moz-user-select: none;
-    display: inline-block;
-    border: 1px solid rgba(0,0,0,0.21);
-    border-bottom-color: rgba(0, 0, 0, 0.21);
-    border-bottom-color: rgba(0,0,0,0.34);
-    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
-    box-shadow: 0 1px 0 rgba(255,255,255,0.34) inset, 0 2px 0 -1px rgba(0,0,0,0.13), 0 3px 0 -1px rgba(0,0,0,0.08), 0 3px 13px -1px rgba(0,0,0,0.21);
+    border: 3px solid black;
+    font-size: 200%;
+    text-align: center;
+}
+
+.btn-two span {
+     
 }
 
 .rounded {
-    border-radius: 10px;
+    border-radius: 50%;
 }
