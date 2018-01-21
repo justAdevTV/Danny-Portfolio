@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="vendors/fonts/font.css" charset="utf-8" /> 
     <link rel="stylesheet" type="text/css" href="vendors/css/remodal.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/remodal-default-theme.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="vendors/css/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="resources/css/style.css" />
 </head>
 <body>
@@ -132,9 +134,16 @@
     <div class="remodal" data-remodal-id="brand-consultancy">
         <button data-remodal-action="close" class="remodal-close"></button>
         <h1>Brand Consultancy</h1>
-        <p>
-            MOQU Introduction (MOQU is a luxury cabinet manufacturer. DRS and Associates was tasked with the job of developing a brand statement for MOQU.)
-        </p>
+        <div class="slide-show">
+            <div class="slide-show-content content-list-box img-card">
+                <div class="content-img-card img-card-initial">
+                    <img src="http://lorempixel.com/output/transport-q-c-640-640-6.jpg" alt="Creative Design">
+                    <div class="img-text carousel-text">Creative Design</div>
+                </div>
+            </div>
+            <div>your content</div>
+            <div>your content</div>
+        </div>
         <br>
     </div>
     <div class="remodal" data-remodal-id="intern-sales">
@@ -174,6 +183,7 @@
 
     <script src="vendors/js/jquery-3.2.1.min.js"></script>
     <script src="vendors/js/remodal.min.js"></script>    
+    <script src="vendors/js/slick.min.js"></script>
     <script src="resources/js/script.js"></script>  
 </body>
 </html>

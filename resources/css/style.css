@@ -134,6 +134,11 @@ html {
     display: block;
 }
 
+.slide-show-content {
+    height: 60vh;
+    pointer-events: none;
+}
+
 .img-card {
     margin-top: 20vh;
     position: relative;
@@ -185,6 +190,10 @@ html {
 
 .content-img-text {
     font-size: 150%;
+}
+
+.carousel-text {
+    font-size: 100%;
 }
 
 .company-logo {

@@ -1,3 +1,9 @@
+$(document).ready(function(){
+    $('.slide-show').slick({
+        dots: true
+    });
+});
+
 function scrollToSection(name) {
     // Scroll to a certain element
     document.getElementById(name).scrollIntoView({ 
