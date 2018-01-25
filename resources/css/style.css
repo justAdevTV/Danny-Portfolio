@@ -109,6 +109,10 @@ img {
         font-size: 53% !important;
     }
 
+    .contact-text {
+        font-size: 70% !important;
+    }
+
     .header-links {
         text-align: center;
         grid-template-columns: none;
