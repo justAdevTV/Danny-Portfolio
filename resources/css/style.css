@@ -64,14 +64,6 @@ img {
     text-decoration: none; 
 }
 
-/* formatting */
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
 /* Holders */
 
 .contact-section-holder {
@@ -96,8 +88,33 @@ img {
 .header-links {
     position: absolute;
     width: 60vw;
-    margin-left: 9vw;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
     bottom: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /*fraction*/
+}
+
+.header-links a {
+    width: 100%;
+}
+ 
+@media (max-width: 768px) { /*breakpoint*/
+    .logo-image {
+        width: 80vw !important;
+    }
+
+    .header-links {
+        text-align: center;
+        grid-template-columns: none;
+    }
+
+    .header-links a {
+        width: 100% !important;
+        font-size: 200% !important;
+        padding: 10px;
+    }
 }
 
 .portfolio-section-holder {
@@ -297,7 +314,6 @@ img {
 
 .header-links a {
     display: block;
-    width: 33%;
     text-align: center;
     text-decoration: none;
     user-select: none;
