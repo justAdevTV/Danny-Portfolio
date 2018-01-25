@@ -15,6 +15,10 @@ function scrollToSection(name) {
     }, 500);
 }
 
+function reloadSlider(num) {
+    $('.slide-show')[num].slick.refresh();
+}
+
 $(".toggle-content").click(function(){
     var carousel = $('.carousel-text'); 
     if (carousel.is(':visible')) {
