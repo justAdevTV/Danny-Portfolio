@@ -5,7 +5,7 @@ $(document).ready(function(){
 });
 
 $(".slide-show").on("beforeChange", function (){
-    $('.carousel-text').hide();
+    $('.carousel-text').show();
 })
 
 function scrollToSection(name) {
@@ -17,6 +17,7 @@ function scrollToSection(name) {
 
 function reloadSlider(num) {
     $('.slide-show')[num].slick.refresh();
+    $('.carousel-text').show();
 }
 
 $(".toggle-content").click(function(){
