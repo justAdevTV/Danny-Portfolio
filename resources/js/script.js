@@ -10,9 +10,9 @@ $(".slide-show").on("beforeChange", function (){
 
 function scrollToSection(name) {
     // Scroll to a certain element
-    document.getElementById(name).scrollIntoView({ 
-        behavior: 'smooth' 
-    });
+    $('html, body').animate({
+        scrollTop: $("#" + name).offset().top
+    }, 500);
 }
 
 $(".toggle-content").click(function(){
