@@ -1,7 +1,21 @@
 $(document).ready(function(){
+    $('html, body').css({
+        overflow: 'hidden',
+        height: '100%'
+    });
+    
     $('.slide-show').slick({
         dots: true
     });
+});
+
+$(window).on("load", function() {
+    $('html, body').css({
+        overflow: 'auto',
+        height: 'auto'
+    });
+
+    $('#loader').fadeOut(1000);
 });
 
 $(".slide-show").on("beforeChange", function (){

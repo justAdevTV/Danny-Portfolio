@@ -13,9 +13,20 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/remodal-default-theme.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="vendors/css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="vendors/css/preloader.css">
     <link rel="stylesheet" type="text/css" media="screen" href="resources/css/style.css" />
 </head>
 <body>
+
+    <div id="loader">
+        <div class="sk-folding-cube loader">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+
     <!-- Header -->
     <a class="title-text" id="title-text">danielcovelli.com</a>
 
@@ -114,7 +125,7 @@
         <div class="portfolio-content-holder">
             <div class="img-card">
                 <div id="contact-button" class="img-card-initial">
-                    <img src="resources/img/portrait.png" alt="Contact Me">
+                    <img class="lazy" src="resources/img/portrait.png" alt="Contact Me">
                     <div class="img-text">Contact</div>
                 </div>
 

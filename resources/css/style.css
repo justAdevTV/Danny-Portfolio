@@ -16,6 +16,21 @@ img {
     image-orientation: from-image;
 }
 
+#loader {
+    z-index: 1001;
+    position: absolute;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.loader {
+    position: relative;
+    top: 40%;
+    /* transform: translateY(-50%);
+    -webkit-transform: translateY(-50%); */
+}
+
 /* Text */
 
 .toggle-content {
